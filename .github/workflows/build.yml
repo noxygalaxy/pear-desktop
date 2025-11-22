@@ -2,8 +2,9 @@ name: Build Pear Desktop
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master, build ]
   pull_request:
+  
 
 env:
   NODE_VERSION: "22.x"
